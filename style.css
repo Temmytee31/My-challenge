@@ -1,0 +1,526 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: roboto;
+    padding-right: 10%;
+    padding-left: 10%
+}
+.image {
+    width: 10%;
+    cursor: pointer;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    /* padding-top: 10px; */
+    /* align-items: center; */
+    /* margin-left: 302px; */
+    padding-left: 10%;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    list-style: none;
+    padding-top: 10px;
+}
+li {
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+.login {
+    padding-left: 302px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
+    padding-right: 18px;
+}
+.headBtn {
+    background-color: rgba(0, 102, 255, 1);
+    padding: 11px 28px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.heroText h2 {
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+.heroText span {
+    background-color: yellow;
+}
+.heroText p {
+    font-size: 18px;
+}
+.heroForm input {
+    color: rgba(0, 102, 255, 1);
+    /* color: rgba(156, 160, 172, 1); */
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    border: 1px solid rgba(0, 102, 255, 1);
+    border-radius: rgba(0, 102, 255, 1);
+}
+.heroForm button {
+    background-color: rgb(62, 118, 202);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 50px; 
+    position: absolute;
+    cursor: pointer;
+    font-family: roboto;
+    font-size: 15px;
+}
+.story {
+    display: flex;
+    justify-content: center;
+}
+.hero {
+    padding-left: 10%;
+    padding-top: 173px;
+    font-family: roboto;
+}
+.heroImg {
+    padding-top: 50px;
+    padding-right: 100px;
+}
+.logos {
+    align-items: center;
+    padding-top: 75px;
+    padding-bottom: 55px;
+}
+.logos p {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: roboto;
+    font-size: 18px;
+}
+.logos img {
+    text-align: center;
+    padding-left: 20%;
+}
+.display {
+    background-color: rgba(214, 218, 228, 0.2);
+}
+.website p {
+    font-size: 20px;
+    font-family: raboto;
+    color: rgba(156, 160, 172, 1);
+}
+.website {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+.site p {
+    font-size: 20px;
+    font-family: roboto;
+    color: rgba(0, 102, 255, 1);
+}
+.site {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.recipes {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    padding-left: 10%;
+    padding-bottom: 150px;
+    gap: 70px;
+    width: 90%;
+}
+.foodle img {
+    width: 120%;
+}
+.wigets h2 {
+    font-family: roboto;
+    font-size: 48px;
+}
+.wigets {
+    padding-left: 80px;
+}
+.best {
+    background-color: rgba(255, 255, 255, 1);
+}
+.saver h2 {
+    font-family: roboto;
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+.saver p {
+    font-family: roboto;
+    font-size: 20px;
+    padding-bottom: 70px;
+}
+.saver span {
+    background-color: yellow;
+}
+.saver {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 100px;
+}
+.instagram h6 {
+    font-family: roboto;
+    font-size: 22px;
+    text-align: center;
+}
+.instagram img {
+    text-align: center;
+    padding-left: 90px;
+    padding-top: 34px;
+    padding-right: 90px;
+}
+.instagram p {
+    font-family: roboto;
+    font-size: 22px;
+    padding-bottom: 30px;
+    padding-left: 28px;
+    padding-right: 28px;
+    text-align: center;
+}
+.instagram {
+    background-color: rgba(255, 255, 255, 1);
+}
+.stories {
+    background-color: rgba(238, 241, 247, 1);
+}
+.all-site {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 150px;
+    padding-left: 10%;
+    padding-right: 10%;
+    /* width: 20%; */
+}
+.double {
+    font-family: roboto;
+    font-size: 48px;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    line-height: 75px;
+    padding-top: 150px;
+}
+.double span  {
+    background-color: yellow;
+}
+.brands h4 {
+    font-family: roboto;
+    font-size: 32px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+.brands h5 {
+    font-family: roboto;
+    font-size: 25px;
+}
+.web {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+.brands p {
+    font-family: roboto;
+    font-size: 18px;
+    padding-right: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.brands {
+    background-color: rgba(238, 241, 247, 1);
+}
+.marketers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-left: 10%;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+}
+.another {
+    text-align: center;
+    align-items: center;
+}
+.embed {
+    font-family: roboto;
+    font-size: 18px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+}
+.calahen {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 500px;
+    padding-top: 20px;
+    padding-bottom: 150px;
+}
+.calahen span {
+    color: black;
+    font-size: 20px;
+}
+.templates {
+    background-color: rgba(17, 24, 39, 1);
+}
+.perfect {
+    font-family: roboto;
+    color: white;
+}
+.perfect h3 {
+    font-size: 56px;
+    line-height: 65px;
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 80px;
+}
+.perfect p {
+    font-size: 17px;
+    padding-right: 30%;
+    padding-left: 30%;
+    line-height: 28px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.demos button{
+    background-color: rgba(0, 102, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 11.5px;
+    border: none;
+    cursor: pointer;
+    font-family: roboto;
+    font-size: 15px;
+    margin-left: 42%;
+    margin-right: 42%;
+}
+.popover img {
+    width: 90%;
+    padding-left: 10%;
+    padding-bottom: 80px
+}
+.preview img {
+    padding-top: 149px;
+    padding-left: 45%;
+    padding-right: 45%;
+    cursor: pointer;
+}
+.preview h3 {
+    font-family: roboto;
+    font-size: 45px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.preview p {
+    font-family: roboto;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.specific img {
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    cursor: pointer;
+}
+.book img {
+    width: 95%;
+    padding-top: 10px;
+    padding-left: 95px;
+    padding-right: 20px;
+}
+.forget img {
+    padding-left: 45%;
+    padding-right: 45%;
+    padding-top: 150px;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+.forget h3 {
+    font-family: roboto;
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.mark p {
+    font-family: roboto;
+    font-size: 18px;
+}
+.mark {
+    display: flex;
+}
+.page {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.dashboard img{
+    width: 95%;
+    padding-left: 95px;
+    padding-right: 20px;
+    padding-bottom: 150px;
+}
+.primary {
+    background-color: rgba(238, 241, 247, 1);
+    border-radius: 15px;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-bottom: 150px;
+}
+.integrate {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.builder img {
+    padding-top: 85px;
+    padding-bottom: 32px;
+}
+.builder h3 {
+    font-family: roboto;
+    font-size: 48px;
+    padding-bottom: 32px;
+}
+.builder p {
+    font-family: roboto;
+    font-size: 19.53px;
+    padding-bottom: 32px;
+}
+.with {
+    display: flex;
+    font-size: 19.53px;
+    font-family: roboto;
+    gap: 9px;
+}
+.required {
+    display: flex;
+    font-size: 19.53px;
+    font-family: roboto;
+    gap: 9px;
+    padding-top: 10px;
+    padding-bottom: 84px;
+}
+.coding img {
+    padding-top: 54px;
+}
+.ready {
+    background-color: rgba(238, 241, 247, 1);
+}
+.dive {
+    display: flex;
+    justify-content: space-between;
+}
+.create {
+    padding-left: 10%;
+}
+.create h3 {
+    font-family: roboto;
+    font-size: 56px;
+    padding-top: 100px;
+}
+.create p {
+    font-family: roboto;
+    font-size: 18px;
+    padding-top: 20px;
+}
+.effort {
+    padding-left: 10%;
+}
+.effort input {
+    padding: 10px;
+    color: rgba(0, 102, 255, 1);
+    border: 1px solid rgba(0, 102, 255, 1);
+    border-radius: rgba(0, 102, 255, 1);
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.effort button {
+    background-color: rgba(0, 102, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    font-family: roboto;
+    border: none;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    position: absolute;
+}
+.team img {
+    padding-top: 51px;
+}
+.words h3 {
+    font-family: roboto;
+    font-size: 62px;
+    text-align: center;
+    padding-top: 170px;
+}
+.word h3 {
+    font-family: roboto;
+    font-size: 62px;
+    text-align: center;
+    padding-bottom: 210px;
+}
+.word span {
+    background-color: yellow;
+}
+.features {
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 50px;
+}
+.click img {
+    padding-bottom: 30px;
+}
+.click h3 {
+    font-family: roboto;
+    font-size: 48px;
+    padding-bottom: 30px;
+}
+.visitors {
+    display: flex;
+    font-family: roboto;
+    /* font-size: 18px; */
+    padding-bottom: 30px;
+    gap: 9px;
+}
+.visitor  {
+    display: flex;
+    font-family: roboto;
+    /* font-size: 18px; */
+    gap: 9px;
+}
